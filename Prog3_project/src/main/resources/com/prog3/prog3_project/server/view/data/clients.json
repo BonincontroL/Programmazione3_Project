@@ -1,0 +1,134 @@
+[
+  {
+    "Mario.rossi@gmail.com": [
+      {
+        "inbox": []
+      },
+      {
+        "sent": [
+          {
+            "dateTime": "14\/12\/2023 12:46:50",
+            "read": true,
+            "receiver": "Mario.rossi@gmail.com",
+            "sender": "Mario.rossi@gmail.com",
+            "subject": "asdas",
+            "ID": 2,
+            "body": "asdsa"
+          },
+          {
+            "dateTime": "14\/12\/2023 12:50:50",
+            "read": true,
+            "receiver": "Mario.rossi@gmail.com",
+            "sender": "Mario.rossi@gmail.com",
+            "subject": "asd",
+            "ID": 4,
+            "body": "a"
+          },
+          {
+            "dateTime": "14\/12\/2023 12:51:29",
+            "read": true,
+            "receiver": "Mario.rossi@gmail.com",
+            "sender": "Mario.rossi@gmail.com",
+            "subject": "asdas",
+            "ID": 6,
+            "body": "asd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Luca.verdi@gmail.com": [
+      {
+        "inbox": [
+          {
+            "dateTime": "14\/12\/2023 15:10:50",
+            "read": true,
+            "receiver": "Luca.verdi@gmail.com",
+            "sender": "Luca.verdi@gmail.com",
+            "subject": "asd",
+            "ID": 8,
+            "body": "das"
+          },
+          {
+            "dateTime": "17\/12\/2023 11:57:31",
+            "read": true,
+            "receiver": "Luca.verdi@gmail.com",
+            "sender": "Luca.verdi@gmail.com",
+            "subject": "as",
+            "ID": 11,
+            "body": "a"
+          },
+          {
+            "dateTime": "19\/12\/2023 10:37:01",
+            "read": true,
+            "receiver": "Luca.verdi@gmail.com,Simone.neri@libero.it",
+            "sender": "Luca.verdi@gmail.com",
+            "subject": "as",
+            "ID": 12,
+            "body": "a"
+          },
+          {
+            "dateTime": "20\/12\/2023 09:54:48",
+            "read": true,
+            "receiver": "Luca.verdi@gmail.com",
+            "sender": "Luca.verdi@gmail.com",
+            "subject": "ciao",
+            "ID": 14,
+            "body": "caio"
+          }
+        ]
+      },
+      {
+        "sent": []
+      }
+    ]
+  },
+  {
+    "Simone.neri@libero.it": [
+      {
+        "inbox": [
+          {
+            "dateTime": "14\/12\/2023 12:44:18",
+            "read": true,
+            "receiver": "Simone.neri@libero.it",
+            "sender": "Simone.neri@libero.it",
+            "subject": "asd",
+            "ID": 1,
+            "body": "dsa"
+          },
+          {
+            "dateTime": "17\/12\/2023 16:24:48",
+            "read": true,
+            "receiver": "Simone.neri@libero.it",
+            "sender": "Simone.neri@libero.it",
+            "subject": "as",
+            "ID": 4,
+            "body": "s"
+          },
+          {
+            "dateTime": "19\/12\/2023 09:44:42",
+            "read": true,
+            "receiver": "Simone.neri@libero.it",
+            "sender": "Simone.neri@libero.it",
+            "subject": "a",
+            "ID": 6,
+            "body": "as"
+          },
+          {
+            "dateTime": "19\/12\/2023 10:37:01",
+            "read": true,
+            "receiver": "Luca.verdi@gmail.com,Simone.neri@libero.it",
+            "sender": "Luca.verdi@gmail.com",
+            "subject": "as",
+            "ID": 8,
+            "body": "a"
+          }
+        ]
+      },
+      {
+        "sent": []
+      }
+    ]
+  }
+]

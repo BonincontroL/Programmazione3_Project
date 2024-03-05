@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.prog3.prog3_project.client.controller.NewMsgController">
+   <children>
+      <HBox alignment="TOP_RIGHT" maxHeight="25.0" minHeight="25.0" prefHeight="25.0" prefWidth="200.0" styleClass="toolBarButtonNewMsg" VBox.vgrow="ALWAYS">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onSendButtonClicked" prefHeight="25.0" prefWidth="74.0" text="Invia">
+               <graphic>
+                  <SVGPath content="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z" />
+               </graphic></Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="3.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <AnchorPane>
+         <children>
+            <HBox maxHeight="25.0" minHeight="25.0" prefHeight="25.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="17.0">
+                     <children>
+                        <Label alignment="CENTER" style="&#10;" text="To" textAlignment="CENTER" wrapText="false" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font size="18.0" fx:id="x1" />
+                           </font>
+                           <textFill>
+                              <Color red="0.624" green="0.624" blue="0.624" fx:id="x2" />
+                           </textFill>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets right="2.0" />
+                     </padding>
+                  </AnchorPane>
+                  <AnchorPane HBox.hgrow="ALWAYS">
+                     <children>
+                        <TextField fx:id="textFieldTo" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                     </children>
+                     <HBox.margin>
+                        <Insets left="38.0" />
+                     </HBox.margin>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </AnchorPane>
+      <AnchorPane>
+         <children>
+            <HBox maxHeight="25.0" minHeight="25.0" prefHeight="25.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="17.0">
+                     <children>
+                        <Label alignment="CENTER" style="&#10;" text="Subject" textAlignment="CENTER" wrapText="false" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font size="18.0" fx:id="x12" />
+                           </font>
+                           <textFill>
+                              <Color red="0.624" green="0.624" blue="0.624" fx:id="x22" />
+                           </textFill>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets right="2.0" />
+                     </padding>
+                  </AnchorPane>
+                  <AnchorPane HBox.hgrow="ALWAYS">
+                     <children>
+                        <TextField fx:id="textFieldSubject" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                     </children>
+                     <HBox.margin>
+                        <Insets left="1.0" />
+                     </HBox.margin>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" top="5.0" />
+         </padding>
+      </AnchorPane>
+      <AnchorPane VBox.vgrow="ALWAYS">
+         <children>
+            <TextArea fx:id="textAreaMsg" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets top="10.0" />
+   </padding>
+</VBox>
